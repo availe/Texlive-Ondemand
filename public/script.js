@@ -3,7 +3,7 @@
 const pdftexButton = document.getElementById('pdftex-button');
 const xetexButton = document.getElementById('xetex-button');
 const statusElement = document.getElementById('status');
-const localTexliveUrl = 'http://localhost:5050/';
+const localTexliveUrl = 'http://localhost:5000/';
 
 async function run(engineCtor, pathLabel, kind) {
     try {
