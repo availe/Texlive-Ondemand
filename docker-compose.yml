@@ -1,7 +1,0 @@
-services:
-  apt-web:
-    restart: always
-    build: .
-    container_name: apt
-    ports:
-      - "5000:5001"
